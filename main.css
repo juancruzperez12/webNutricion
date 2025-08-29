@@ -1061,3 +1061,49 @@ footer {
   }
 }
 /* cierra css footer */
+
+/* Estilos para el título de Servicios */
+#servicios .m-i-seccion-contenido:first-child h1 {
+  color: #f47608;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Media queries para el título de Servicios */
+@media (max-width: 767px) {
+  #servicios .m-i-seccion-contenido:first-child h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #servicios .m-i-seccion-contenido:first-child h1 {
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 360px) {
+  #servicios .m-i-seccion-contenido:first-child h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+  #servicios .m-i-seccion-contenido:first-child h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 1921px) {
+  #servicios .m-i-seccion-contenido:first-child h1 {
+    font-size: 4rem;
+    margin-bottom: 50px;
+  }
+}
